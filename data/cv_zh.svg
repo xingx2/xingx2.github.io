@@ -1,0 +1,12 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<path d="m128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32v-352l-128-128h-224z" fill="#E2E5E7"/>
+<path d="m384 128h96l-128-128v96c0 17.6 14.4 32 32 32z" fill="#B0B7BD"/>
+<polygon points="480 224 384 128 480 128" fill="#CAD1D8"/>
+<path d="m415 416c0 8.8-7.2 16-16 16h-352c-8.8 0-16-7.2-16-16v-160c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#069"/>
+<path d="m400 432h-304v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#CAD1D8"/>
+<text x="104" y="189.453125" fill="#006699" font-family="'Courier New', Courier, monospace" font-size="200" font-weight="bold" stroke="#000" stroke-width="0" xml:space="preserve">CV</text>
+<path d="m88.5 296.45" fill="#fff" opacity=".5" stroke="null" stroke-opacity="null" stroke-width="null"/>
+<line x1="-458.5" x2="-319.5" y1="131.45" y2="205.45" fill="none" stroke="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="null"/>
+<line x1="-93.5" x2="-92.5" y1="107.45" y2="107.45" fill="none" stroke="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="null"/>
+<text x="38.5" y="400.453125" fill="#ffffff" font-family="'Courier New', Courier, monospace" font-size="180" stroke="null" stroke-opacity="null" xml:space="preserve">中文</text>
+</svg>
