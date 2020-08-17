@@ -417,6 +417,7 @@ ul.flat li {
 .menu {
     display: inline-block;
     width: 19.3%;
+    min-width: 90px;
     text-align: center;
 }
 
