@@ -147,6 +147,21 @@ ul.flat li {
   margin-left: -20px;
 }
 
+.experience ul {
+    list-style: inside;
+    list-style-type: none;
+}
+
+.experience ul li {
+    margin-bottom: 6px;
+}
+
+.experience ul li:before {
+  content: '>';
+  position: absolute;
+  margin-left: -20px;
+}
+
 .education ul {
     list-style: inside;
     list-style-type: none;
@@ -310,6 +325,13 @@ ul.flat li {
     display: inline-block;
     width: 90%;
 }
+
+.experiences {
+    margin-left: 0em;
+    display: inline-block;
+    width: 90%;
+}
+
 .code_blog {
     font-family: "Ubuntu Mono";
     font-size: 16px;
