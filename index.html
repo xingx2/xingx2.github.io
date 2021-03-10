@@ -675,12 +675,32 @@
 			
 		</div>
 		</div>
-		<div class="footer wrapper">
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="footer wrapper">
 	<nav class="nav">
-		<div> © Copyright notice |  <a href="https://github.com/hadisinaee/avicenna">Avicenna</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+		<div>
+			 © Copyright notice |  <a href="https://github.com/hadisinaee/avicenna">Avicenna</a> | Built with <a href="https://gohugo.io">Hugo</a> 
+			<span class="count" id="busuanzi_container_site_pv" style='display:none'>
+				 | View <span class="count" id="busuanzi_value_site_pv"></span> Times
+			</span>
+		</div>
 	</nav>
 </div>
 
+<script src="js/jquery-3.6.0.min.js"></script>
+<script >
+        $(document).ready(function() {
+            var int = setInterval(fixCount, 50);  
+            var countOffset = 1634;  
+           function fixCount() {                   
+             if ($("#busuanzi_container_site_pv").css("display") != "none")
+               {
+                  $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + countOffset); 
+                  clearInterval(int); 
+             }  
+         }           
+        });
+    </script>
 
 <script type="application/javascript">
 var doNotTrack = false;
