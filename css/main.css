@@ -1,3 +1,4 @@
+
 /* Ubuntu, Ubuntu */
 
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
@@ -58,6 +59,10 @@ blockquote cite {
     opacity: 0.8;
 }
 span {
+    display: inline;
+}
+
+.block_span {
     display: block;
 }
 
@@ -221,7 +226,7 @@ ul.flat li {
 }
 .header nav {
     margin-top: 20px;
-    /* border-top: 1px solid #f4f4f4; */
+    border-top: 1px solid #f4f4f4; 
 }
 .header nav ul, .header nav li {
     margin: 0;
@@ -462,3 +467,156 @@ ul.flat li {
 .count {
     display: inline-block;
 }
+
+.inline {
+    display: inline-block;
+}
+
+
+
+/*new for blog*/
+
+.pagination {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination .page-prev {
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.pagination .page-item.page-prev {
+    text-align: left;
+}
+
+.pagination .page-item.page-next {
+    text-align: right;
+}
+
+
+.section .section-header {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.recent-posts .posts .post {
+    margin-bottom: 30px;
+}
+
+.recent-posts .posts .post .meta,
+.post .post-header .meta,
+.list .posts .post .meta {
+    font-size: 0.725rem;
+    color: #999;
+    margin-bottom: 4px;
+}
+
+.post .post-header {
+    margin-bottom: 30px;
+}
+
+.post .post-header .title {
+    margin: 0;
+}
+
+.post-tags a {
+    margin-right: 5px;
+}
+
+.post .post-header .meta {
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.post .draft-label {
+    color: #1f5ab4;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 6px;
+    background-color: #f9f2f4;
+}
+
+.post-tags .tags li {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.post-tags .tags a {
+    display: inline-block;
+    border: 1px solid #1f5ab4;
+    border-radius: 4px;
+    padding: 0px 6px;
+    color: #1f5ab4;
+    line-height: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 1px;
+}
+
+.list .posts .post .meta {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.post ul li {
+    margin-bottom: 10px;
+}
+
+.post ul li p {
+    display: inline;
+}
+
+.header .site-description nav {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.header .site-description nav ul svg {
+    max-height: 25px;
+    max-width: 25px;
+}
+.header .site-description nav ul img {
+    max-height: 40px;
+    max-width: 40px;
+}
+.header .site-description nav ul img a {
+    display: block;
+    margin: 0 auto;
+    width: 20px;
+}
+
+.blogheader nav {
+    margin-top: 20px;
+    border-top: 1px solid #f4f4f4; 
+}
+.blogheader nav ul, .blogheader nav li {
+    margin: 0;
+}
+.blogheader nav ul.flat {
+    padding: 0;
+}
+.blogheader nav ul.flat li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
